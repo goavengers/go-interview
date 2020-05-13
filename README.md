@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="650" height="563" src="https://github.com/goavengers/go-interview/blob/master/img/go-inter.jpeg">
+  <img width="325" height="281" src="https://github.com/goavengers/go-interview/blob/master/img/go-inter.jpeg">
   <h1>Вопросы и ответы для собеседования Back-end/Golang разработчика и не только</h1>
   <h5>Вместе мы разберемся!</h5>
 </div>
