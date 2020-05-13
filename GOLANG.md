@@ -1,0 +1,1 @@
+### <a name="golang_questions"></a>Вопросы по языку Golang
