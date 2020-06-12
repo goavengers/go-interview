@@ -99,3 +99,30 @@ func main() {
   <summary>Ответ</summary>
   Ответ: А
 </details>
+
+### <a name="16"></a> 16. Что выведет следующая программа?
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+   a := [5]int{1, 2, 3, 4, 5}
+   t := a[3:4:4]
+   fmt.Prinln(t[0])
+}
+``` 
+
+**Варианты:**
+
+1. 3
+2. 4
+3. Ошибка компиляции
+4. Нет правильного ответа
+5. Я не знаю
+
+<details>
+  <summary>Ответ</summary>
+  Ответ: 4
+</details>
