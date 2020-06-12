@@ -97,5 +97,5 @@ func main() {
 
 <details>
   <summary>Ответ</summary>
-  **Ответ:** А
+  Ответ: А
 </details>
