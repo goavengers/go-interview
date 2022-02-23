@@ -119,3 +119,18 @@
 ## Как мне добавить свой вопрос-ответ?
 
 - [Ознакомьтесь с шаблоном составления](TEMPLATE.md)
+
+### Maintainers
+
+<table>
+<tr>
+<td align="center">
+<img src="https://avatars1.githubusercontent.com/u/23422968?s=460&u=668229465690637b50f6581df0fa9918d7fb6c1e&v=4" width="100px;" alt=""/>
+<br /><sub><b>zikwall</b></sub></a><br />
+</td>
+<td align="center">
+<img src="https://avatars.githubusercontent.com/u/2690403?v=4" width="100px;" alt=""/>
+<br /><sub><b>dreddsa5dies</b></sub></a><br />
+</td>
+</tr>
+</table>
