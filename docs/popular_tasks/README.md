@@ -326,3 +326,100 @@ func main() {
 
 }
 ```
+
+### <a name="7"></a> 7. Что выведет код?
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+   runtime.GOMAXPROCS(1)
+
+   done := false
+
+   go func() {
+      done = true
+   }()
+
+   for !done {
+   }
+   fmt.Println("finished")
+}
+```
+
+<details>
+  <summary>Ответ или подсказка</summary>
+  Как можно изменить этот код, чтобы был вывод “finished”?
+</details>
+
+### <a name="8"></a> 8. Какая есть проблема в коде?
+
+```go
+var counter int
+for i := 0; i < 1000; i++ {
+   go func() {
+      counter++
+   }()
+}
+```
+
+<details>
+  <summary>Ответ или подсказка</summary>
+  Как её можно решить?
+  А как её можно бы было решить, если бы в языке не было пакета sync?
+</details>
+
+### <a name="9"></a> 9. Что выведет код?
+
+```go
+func main() {
+   v := 5
+   p := &v
+   println(*p)
+
+   changePointer(p)
+   println(*p)
+}
+
+func changePointer(p *int) {
+   v := 3
+   p = &v
+}
+```
+
+<details>
+  <summary>Ответ или подсказка</summary>
+  Почему? Как нужно изменить функцию changePointer, чтобы вывело 5 и 3 (в оригинальной версии выводится 5 и 5)?
+</details>
+
+### <a name="10"></a> 10. Что выведет код?
+
+```go
+func worker() chan int {
+   ch := make(chan int)
+
+   go func() {
+      time.Sleep(3 * time.Second)
+      ch <- 42
+   }()
+
+   return ch
+}
+
+func main() {
+   timeStart := time.Now()
+
+   _, _ = <-worker(), <-worker()
+
+   println(int(time.Since(timeStart).Seconds())) // что выведет - 3 или 6?
+}
+```
+
+<details>
+  <summary>Ответ или подсказка</summary>
+ Что нужно изменить, чтобы код работал за 3 секунды?
+</details>
