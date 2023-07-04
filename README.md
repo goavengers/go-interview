@@ -110,6 +110,10 @@
     - [Сделать конвейер чисел](docs/popular_tasks#4)
     - [Написать WorkerPool с заданной функцией](docs/popular_tasks#5)
     - [Сделать кастомную waitGroup на семафоре](docs/popular_tasks#6)
+    - [Что выведет код?](docs/popular_tasks#7)
+    - [Какая есть проблема в коде?](docs/popular_tasks#8)
+    - [Что выведет код?](docs/popular_tasks#9)
+    - [Что выведет код?](docs/popular_tasks#10)
    
 ## Как мне добавить свой вопрос-ответ?
 
