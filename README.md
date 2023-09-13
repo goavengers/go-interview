@@ -779,5 +779,9 @@ func main() {
 <img src="https://avatars.githubusercontent.com/u/2690403?v=4" width="100px;" alt=""/>
 <br /><sub><b>dreddsa5dies</b></sub></a><br />
 </td>
+<td align="center">
+<img src="https://avatars.githubusercontent.com/u/35832930?v=4" width="100px;" alt=""/>
+<br /><sub><b>gonnafaraway (kj22k0m)</b></sub></a><br />
+</td>
 </tr>
 </table>
