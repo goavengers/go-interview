@@ -782,5 +782,9 @@ func main() {
 <img src="https://avatars.githubusercontent.com/u/35832930?v=4" width="100px;" alt=""/>
 <br /><sub><b>gonnafaraway (kj22k0m)</b></sub></a><br />
 </td>
+<td align="center">
+<img src="https://avatars.githubusercontent.com/u/64461997?v=4" width="100px;" alt=""/>
+<br /><sub><b>screamo-boop</b></sub></a><br />
+</td>
 </tr>
 </table>
